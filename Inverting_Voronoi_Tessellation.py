@@ -397,11 +397,6 @@ def main(data, filename, approximation=False):
     else:
         print("The parameter approximation must be True or False!")
 
-    '''
-    voronoi = scipy.spatial.Voronoi(generators)
-    fig = scipy.spatial.voronoi_plot_2d(voronoi)
-    plt.show()
-    '''
     return None
 
 
