@@ -19,5 +19,3 @@ Anhand dieses Problems kann das inverse Laguerreproblem gelöst werden. Dafür s
 
 
 Die Ergebnisse der inversen Probleme lassen sich anhand der Visualisierungsmethoden der Datei Calculating_Voronoi_or_Laguerre_Tessellation.py überprüfen. Des Weiteren sind detaillierte Informationen in den einzelnen Funktionen hinterlegt. Außerdem kann es von Nöten sein, den approximativen oder optimierenden Algortihmus entsprechend des gegebenen Mosaiks anzupassen.
-
-Copyright:
