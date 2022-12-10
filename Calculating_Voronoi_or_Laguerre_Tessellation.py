@@ -402,7 +402,4 @@ if __name__ == "__main__":
     # display_given_tessellation(generators4, block=False)
     # generator5 = pd.read_csv("calculated_voronoi_generators_data_appr.csv")
     # create_tessellation(generator5, block=True, setTitle="laguerre")
-    # supermarkets = pd.read_csv("supermarkets_vor_generators_data.csv")
-    # supermarkets = pd.read_csv("supermarkets_lag_generators_data.csv")
-    # create_tessellation(supermarkets, block=True, center=True)
 
