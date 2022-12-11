@@ -67,7 +67,7 @@ def check_coordinates(x1, y1, data, x2=None, y2=None):
     perpendicular to the edge of the cell and either the vector [0,1] if x2 is given or [1,0] if y2 is given.
 
     :param x1: first coordinate of the first generator
-    :param y1: second coordinate of the second generator
+    :param y1: second coordinate of the first generator
     :param data: tessellation data (in suitable format)
     :param x2: first (wanted) coordinate of the second generator
     :param y2: second (wanted) coordinate of the second generator
@@ -359,7 +359,7 @@ def write_in_file(generators, filename):
     """
     Write the calculated generators in a file.
 
-    :param generators: A array of generators. For example: [[[x1, y1], r1, c1], [[x2, y2], r2, c2], ...]
+    :param generators: An array of generators. For example: [[[x1, y1], r1, c1], [[x2, y2], r2, c2], ...]
     :param filename: The name of file where the calculated generators will be stored
     :return: None
     """
@@ -472,7 +472,7 @@ def approximated_generating_points(data, sampleSize=20, rarityParameter=0.2, mu=
     """
     Calculate a set of generating points with a minimal maximum radius greater than 0. At least the first 4 generators
     have to be in their generated cells.
-    If the runtime is too large, the parameter of the multivariate normal distribution might not be chosen reasonable.
+    If the runtime is too large, the parameters of the multivariate normal distribution might not be chosen reasonable.
 
     :param data: tessellation data as a pandas dataframe
     :param sampleSize: The size of the sample to draw the coordinates x1, y1, x2, y2 from
